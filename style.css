@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+
+}
+
+h1 {
+    font-size: 30px;
+    border: 8px dotted #ffffff;
+    border-style: inset;
+    border-radius: 5px;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 250px;
+    text-align: center;
+    color: white;
+    
+    
+
+}
+
+button:hover {
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  color: green;
+}
+
+.formClass {
+    font-size: 15px;
+    padding: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+body {
+height: 100vh; 
+background: radial-gradient(ellipse at bottom, #1b2735 100%, #090a0f 50%);
+  filter: drop-shadow(0 0 10px white);
+  
+
+
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+
+
+  .poster {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+
+}
+
+h4 {
+  text-align: center;
+  font-size: 12.5px;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+}
+
+#button {
+  font-size: 15px;
+  margin: 15px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 15px;
+}
+
+
+iframe {
+    width: 190px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 50px;
+    border: none;
+
+}
+
+.container {
+    border: 8px dotted white;
+    border-style: inset;
+    border-radius: 15px;
+    width: 250px;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+
+.container2 {
+  border: 8px dotted white;
+    border-style: inset;
+    border-radius: 15px;
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+
+
+
+.formClass {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*media queries at 480px*/
+
+
+@media only screen and (min-width: 480px) {
+  h1 {
+      font-size: 50px;
+      width: 360px;
+      padding: 5px;
+  }
+
+  .formClass {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 22.5px;
+  }
+
+  .poster {
+    width: 65%;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 15px;
+  }
+
+  #button {
+    font-size: 17px;
+  }
+
+  iframe {
+    width: 220px;
+  }
+
+  .container, .container2 {
+    width: 350px;
+  
+  }
+
+}
+
+/*media queries at 600px*/
+
+
+@media only screen and (min-width: 600px) {
+  h1 {
+      font-size: 60px;
+      width: 500px;
+      padding: 10px;
+  }
+
+  .formClass {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  #button {
+    font-size: 20px;
+  }
+
+  iframe {
+    width: 260px;
+  }
+
+  .container, .container2 {
+    width: 450px;
+  
+    }
+
+}
+
+
+
+/*media queries at 768px*/
+
+
+@media only screen and (min-width: 768px) {
+  h1 {
+      font-size: 80px;
+      width: 700px;
+      padding: 20px;
+  }
+
+  .formClass {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  #button {
+    font-size: 25px;
+  }
+
+  iframe {
+    width: 320px;
+  }
+
+  .container, .container2 {
+    width: 500px;
+  
+    }
+}
+
+
+/*media queries at 1024px*/
+
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 90px;
+    width: 800px;
+    padding: 30px;
+}
+
+.formClass {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+#button {
+  font-size: 28px;
+}
+
+
+iframe {
+  width: 320px;
+  
+}
+
+.container, .container2 {
+  width: 600px;
+  
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
